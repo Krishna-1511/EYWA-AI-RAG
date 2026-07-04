@@ -5,6 +5,7 @@ Chunking is now section-aware: it prevents mixed-topic chunks from degrading sum
 import logging
 from typing import List
 
+
 import fitz  # PyMuPDF
 import spacy
 import tiktoken
